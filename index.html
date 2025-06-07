@@ -273,7 +273,7 @@
                         'anthropic-dangerous-direct-browser-access': 'true'
                     },
                     body: JSON.stringify({
-                        model: 'claude-3-sonnet-20240229',
+                        model: 'claude-sonnet-4-20250514',
                         max_tokens: 500,
                         messages: [{ role: 'user', content: [{ type: 'text', text: prompt }, { type: 'image', source: { type: 'base64', media_type: 'image/jpeg', data: base64 } }] }]
                     })
@@ -344,7 +344,7 @@
                         'anthropic-dangerous-direct-browser-access': 'true'
                     },
                     body: JSON.stringify({ 
-                        model: 'claude-3-sonnet-20240229', 
+                        model: 'claude-sonnet-4-20250514', 
                         max_tokens: 10, 
                         messages: [{ role: 'user', content: 'test' }] 
                     })
